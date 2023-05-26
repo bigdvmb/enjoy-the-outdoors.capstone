@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container1{
+    
+    
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://www.alexnail.com/gallery-images/stetind-sunburst.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+
+.row{
+    padding-top: 8%;
+    padding-bottom: 25em;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+    padding-left: 10%;
+    padding-right: 8%;
+}
+
+/* .mm {
+    padding-left: 8%;
+    padding-right: 8%;
+} */
+
+.tm {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.name {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+p {
+    text-align: center;
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+.cards{
+    
+    width: 300px;
+    /* height: px; */
+    display : inline-block;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 80px 100px;
+    transition: transform 0.5s
+    
+}
+
+.cards:hover{
+    transform: translateY(-10px);
+}
+
+
+#c1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(https://images.unsplash.com/photo-1668368865394-7e8c0516ded0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGxvbW5pY2F8ZW58MHx8MHx8&w=1000&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#c2{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(https://www.libertytravel.com/sites/default/files/styles/full_size/public/19201080ssss.jpg?itok=6Kbogw_5);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#c3{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(https://e0.pxfuel.com/wallpapers/41/820/desktop-wallpaper-mad-mike-rx7-touge.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.button{
+    display: block;
+    margin: auto;
+    width: 100px;
+    
+    color: #000;
+    font-size: 10px;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+}

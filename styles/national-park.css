@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://www.libertytravel.com/sites/default/files/styles/full_size/public/19201080ssss.jpg?itok=6Kbogw_5) no-repeat center center fixed; 
+    background-size: cover;
+   
+  }
+
+  h1 th thead{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .wt{
+    color: #fff;
+  }
+
+  .wt1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 4px;
+  }
+
+  #wt{
+    color: #fff;
+  }
